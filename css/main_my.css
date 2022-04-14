@@ -1,0 +1,220 @@
+/* common style */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container .wordbox {
+    background: rgba(97, 90, 90, 0.4);
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container .content .festival .wordbox {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.container .content .click .wordbox {
+    width: max-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .menu {
+    padding: 10px;
+    padding-right: 50px;
+    text-align: center;
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.container .menu h3 {
+    font-size: 25px;
+    padding: 15px 0px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(green,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container .menu ul li {
+    /* padding: 7px; */
+    background: #333;
+}
+
+.container .menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+}
+
+.container .menu ul li a:hover {
+    background: red;
+}
+
+.container .content {
+    width: 80%;
+    box-sizing: border-box;
+    float: right;
+}
+
+.content .festival {
+    width: 100%;
+    height: 400px;
+    background: url("../images/img1.jpg") no-repeat center / cover;
+}
+
+.content h4 {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    width: max-content;
+}
+
+.content .alert {
+    margin-top: 10px;
+
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.content .alert ul {
+    font-size: 0.8em;
+}
+
+.content .alert ul .white {
+    padding: 10px 0;
+}
+
+.content .alert ul .grey {
+    background: lightgrey;
+    padding: 10px 0;
+}
+
+.content .alert ul li {
+
+}
+
+.content .alert ul li a {
+    text-decoration: none;
+}
+
+.content .gallery {
+    margin-top: 10px;
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+    height: 180px
+}
+
+.content .gallery .gallerybox {
+
+    padding: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.content .gallery .box {
+
+    width: 26%;
+    height: 80px;
+    margin-right: 3%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.content .gallery .one {
+    background: url('../images/icon1.jpg') no-repeat center / cover
+}
+
+.content .gallery .two {
+    background: url('../images/icon2.jpg') no-repeat center / cover
+}
+
+.content .gallery .three {
+    background: url('../images/icon3.jpg') no-repeat center / cover
+}
+
+.content .click {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px 0;
+    height: 130px;
+    background: url('../images/contents.jpg') no-repeat center / cover
+}
+
+footer {
+    padding: 20px;
+    background: lightgrey;
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.container footer p {
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container .temp {
+    width: 30%;
+
+    float: right;
+    box-sizing: border-box;
+}
+
+.container .temp .rightFooter {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.container .rightFooter .sm {
+    width: 30%;
+    margin-right: 2.5%;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.container .rightFooter .fb {
+    margin-right: 2.5%;
+    background: url('../images/sns1.jpg') no-repeat center
+}
+
+.container .rightFooter .twitter {
+    margin-right: 2.5%;
+    background: url('../images/sns2.jpg') no-repeat center 
+}
+
+.container .rightFooter .insta {
+    margin-right: 2.5%;
+    background: url('../images/sns3.jpg') no-repeat center
+}
+
+.container .temp .custom-select select{
+    width: 100%;
+}
