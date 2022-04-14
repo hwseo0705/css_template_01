@@ -1,5 +1,5 @@
 /* common style */
-
+/* Trying to Push */
 .clearfix::after {
     content: '';
     display: block;
@@ -49,7 +49,7 @@
     padding: 15px 0px;
     font-weight: bold;
     background: -webkit-linear-gradient(green,red);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
@@ -109,10 +109,6 @@
 .content .alert ul .grey {
     background: lightgrey;
     padding: 10px 0;
-}
-
-.content .alert ul li {
-
 }
 
 .content .alert ul li a {
